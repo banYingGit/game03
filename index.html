@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+    <title>配对记忆测验</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery/jquery-2.1.3.js"></script>
+    <script src="jquery/jquery.game.js"></script>
+
+</head>
+<body id="main">
+<div class="srceen srceen1" id="screen1" style="display: block">
+    <div class="main-box">
+        <div class="img-box logo"><img src="img/logo.png"/></div>
+        <div class="img-box explain"><img src="img/text1.png"/></div>
+        <div class="botton"><img src="img/into.png" id="goscreen2"/></div>
+    </div>
+</div>
+<div class="srceen srceen2" id="screen2">
+    <div class="main-box">
+        <div class="img-box explain explainT"><img src="img/text2.png"/></div>
+        <div class="botton"><img src="img/start1.png" id="goscreen3"/></div>
+    </div>
+</div>
+<div class="srceen srceen2" id="startTip">
+    <div class="main-box">
+        <div class="img-box explain explainT"><img src="img/text3.png"/></div>
+        <div class="botton"><img src="img/start2.png" id="start"/></div>
+    </div>
+</div>
+<div class="srceen srceen3" id="screen3">
+    <ul class="tree" data-role="trees">
+        <li><p><img src="img/seat.png" /></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+        <li><p><img src="img/seat.png"/></p></li>
+    </ul>
+    <div class="img-box againScr">
+        <P class="againBtn"><img src="img/again.png" id="againBtn"/></P>
+
+    </div>
+    <div class="img-box stopBtn" id="stopBtn">
+        <img src="img/stop.png"/>
+    </div>
+</div>
+<div class="srceen srceen1" id="screen4">
+    <div class="main-box">
+        <div class="img-box explain explainT"><img src="img/over.png"/>
+            <div id="uesTime" class="result result1"></div>
+            <div id="score" class="result result2"></div>
+        </div>
+        <div class="botton"><img src="img/out.png" data-role="signOut"/></div>
+    </div>
+</div>
+
+<div class="srceen srceen1" id="screenStop">
+    <div class="main-box">
+        <div class="img-box logo"><img src="img/logo.png"/></div>
+        <div class="img-box explain"><img src="img/text4.png"/></div>
+        <div class="botton bottons"><img src="img/out.png" data-role="signOut"/> <img src="img/continue.png"
+                                                                               id="continue"/></div>
+    </div>
+</div>
+<script src="jquery/jquery.game.js"></script>
+
+</body>
+</html>

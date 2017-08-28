@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.img-box img {
+    display: block;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle
+}
+
+.srceen {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+
+.srceen1 {
+    background: url("../img/bg1.png") center no-repeat;
+}
+
+.srceen2 {
+    background: url("../img/bg2.png") center no-repeat;
+}
+
+.srceen3 {
+    background: url("../img/bg3.png") center no-repeat;
+}
+
+.main-box {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 80%;
+    margin-left: -40%;
+    height: 75%;
+}
+
+.logo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.explain {
+    margin: 8% auto;
+    width: 65%;
+
+}
+
+.explainT {
+    position: relative;
+    margin-top: 10%
+}
+
+.explainT .text {
+    position: absolute;
+    right: 35%;
+    width: 50%;
+    height: 20%;
+    font-size: 3em;
+    color: #007321;
+    text-align: right;
+}
+
+.botton {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.botton img {
+    width: 40%;
+    cursor: pointer;
+}
+
+.bottons {
+    width: 60%;
+}
+
+.bottons img {
+    float: left;
+    width: 40%;
+    margin: 0 5%;
+}
+
+.tree {
+    width: 92%;
+    height: 80%;
+    margin-top: 5%;
+    float: right;
+}
+
+.tree li {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 30%;
+}
+
+.tree li p {
+    position: relative;
+    display: block;
+    width: 50%;
+}
+
+.tree li p img {
+    display: block;
+    width: 100%;
+}
+
+.tree li:nth-child(1) p {
+    margin: 10% 0 0 10%;
+}
+
+.tree li:nth-child(2) p {
+    margin: 0;
+}
+
+.tree li:nth-child(3) p {
+    margin: 10% 0 0 20%;
+}
+
+.tree li:nth-child(4) p {
+    margin: 15% 0 0 20%;
+}
+
+.tree li:nth-child(5) p {
+    margin: 5% 0 0 -10%;
+}
+
+.tree li:nth-child(6) p {
+    margin: 15% 0 0 -15%;
+}
+
+.tree li:nth-child(7) p {
+    margin: -20% 0 0 -30%;
+}
+
+.tree li:nth-child(8) p {
+    margin: 5% 0 0 -20%;
+}
+
+.tree li:nth-child(9) p {
+    margin: 20% 0 0 30%;
+}
+
+.tree li:nth-child(10) p {
+    margin: 15% 0 0 20%;
+}
+
+.tree li:nth-child(11) p {
+    margin: -10% 0 0 20%;
+}
+
+.tree li:nth-child(12) p {
+    margin: 15% 0 0 20%;
+}
+
+/* 暂停界面 */
+#screenStop {
+    z-index: 100;
+}
+
+.stopBtn {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 5%;
+    display: none;
+
+}
+
+/* 再练一次 */
+.againScr {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+.againScr .againBtn {
+    position: absolute;
+    bottom: 5%;
+
+    right: 15%;
+    width: 15%;
+
+}
+
+/* 最后结果 */
+.result {
+    position: absolute;
+
+    right: 40%;
+    width: 40%;
+    text-align: right;
+    font-size: 3rem;
+    color: #067577;
+}
+
+.result1 {
+    bottom: 29.5%;
+}
+
+.result2 {
+    bottom: 9.5%;
+}
+
