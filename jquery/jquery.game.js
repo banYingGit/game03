@@ -214,7 +214,7 @@ function _imgClick(e) {
 
                 $('ul[data-role="trees"] > li').find('img').removeAttr('onclick')
 
-                if (errorNum == 3) {
+                if (errorNum == 2) {
 
                     setTimeout(function () {
                         $('#screen3').remove()
@@ -226,7 +226,7 @@ function _imgClick(e) {
 
                         sumTime = parseInt(sumTime + curTime)
 
-                        // console.log('错误3次游戏结束用时', sumTime)
+                        // console.log('错误2次游戏结束用时', sumTime)
 
                         _over()
                     }, 2000)
